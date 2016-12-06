@@ -6,7 +6,7 @@
         protected $mem1 = 'Tyler Durden';
         public $mem2='Robert Poulson';
 
-        public function __construct(){
+        public function __construct($arg1,$arg2){
             echo 'Welcome to the Fight Club<br><br>';
         }
         public function rules(){
@@ -28,7 +28,7 @@
         } 
     }
 
-$club = new FightCLub();
+$club = new FightCLub('arg1','arg2');
 echo 'Here is the rules of the FC<br><br> '; 
 $club->rules();
 ?>
