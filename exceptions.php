@@ -14,6 +14,5 @@ try {
     echo 'Выброшено исключение: ',  $e->getMessage(), "<br>";
 }
 
-// Продолжение выполнения
 echo "Hello World<br>";
 ?>

@@ -2,8 +2,8 @@
 <?php
     class FightClub
     {
-        private $mem0 = 'Cornelius';
-        protected $mem1 = 'Tyler Durden';
+        public $mem0 = 'Cornelius';
+        public $mem1 = 'Tyler Durden';
         public $mem2='Robert Poulson';
 
         public function __construct(){
