@@ -2,11 +2,12 @@
 <?php
     class FightClub
     {
+        use boss;
         public $mem0 = 'Cornelius';
         public $mem1 = 'Tyler Durden';
         public $mem2='Robert Poulson';
 
-        public function __construct($arg1,$arg2){
+        public function __construct(){
             echo 'Welcome to the Fight Club<br><br>';
         }
         public function rules(){

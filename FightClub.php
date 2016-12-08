@@ -9,7 +9,7 @@
         public function __construct($founder, $city){
             $this->mem0 = $founder;
             $this->hc = $city;
-            echo "This FC founded by $this->mem0 in the $this->hc city";
+            echo "This FC founded by $this->mem0 in the $this->hc city<br>";
         }
         public function showRules(){
             echo '  1st RULE: You do not talk about FIGHT CLUB.<br>
@@ -31,3 +31,4 @@
     }
 
 $club = new FightClub('Derrek', 'Amsterdam');
+$club->showRules();
